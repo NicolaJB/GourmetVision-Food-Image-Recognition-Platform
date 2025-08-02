@@ -9,7 +9,7 @@ import numpy as np
 from google.cloud import storage
 
 # CREDENTIALS TO ACCESS ONLINE BUCKET
-path_to_credentials = './credentials/tensile-quasar-346018-ff7b750a28c5.json'  # with storage admin role
+path_to_credentials = './credentials/your-api-key-here'  # with storage admin role
 # path_to_credentials = './credentials/.... # without storage admin role
 
 
