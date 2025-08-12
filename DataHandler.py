@@ -128,9 +128,9 @@ if __name__ == '__main__':
     download_data_switch = True
 
 
-    path_to_train_data = '/Users/nicolabuttigieg/Downloads/food-11/training/'
-    path_to_val_data = '/Users/nicolabuttigieg/Downloads/food-11/validation/'
-    path_to_eval_data = '/Users/nicolabuttigieg/Downloads/food-11/evaluation/'
+    path_to_train_data = '/path-to-training-dataset/'
+    path_to_val_data = '/path-to-validation-dataset/'
+    path_to_eval_data = '/path-to-evaluation-dataset/'
 
     if split_data_switch:
         for i in range(11):
@@ -152,10 +152,10 @@ if __name__ == '__main__':
         print(f"median height = {median_height}")
 
     if list_blobs_switch:
-        blobs = list_blobs('dummy-foods-data-bucket')
+        blobs = list_blobs('example-foods-data-bucket')
 
         for blob in blobs:
             print(blob.name)
 
     if download_data_switch:
-        download_data_to_local_directory("dummy-foods-data-bucket", "./data")
+        download_data_to_local_directory("example-foods-data-bucket", "./data")
