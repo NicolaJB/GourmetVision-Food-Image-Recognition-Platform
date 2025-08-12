@@ -79,7 +79,6 @@ After successful deployment, the command output will provide the URL to access y
 This project is licensed under the Apache License 2.0
 
 ### Acknowledgements
-This application is based on the concepts and methods presented in the course 'Train and Deploy Tensorflow models using Google AI Platform'.
+This application is based on the concepts and methods presented in the 2020 project demonstration 'Train and Deploy Tensorflow models using Google AI Platform' by Nour Islam Mokhtari. This project is intended as a prototype.
 
 Thanks to Google Cloud Platform for providing the infrastructure and tools that enabled scalable training and deployment.
-Disclaimer: This project is intended as a prototype.
