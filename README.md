@@ -4,9 +4,12 @@
 GourmetVision is an AI-powered web application that accurately classifies and identifies food items from images using deep learning. The neural network was trained using Google AI Platform and deployed as a scalable web service via Python Flask and Google Cloud Run.
 
 ## Features  
-- Deep convolutional neural network for high-accuracy food image classification  
-- Web-based interface for easy image upload and instant recognition  
-- Cloud-based training and deployment for scalability and reliability  
+- Deep convolutional neural network (InceptionV3, pretrained on ImageNet) fine-tuned with additional Kaggle datasets for high-accuracy food classification.
+- Transfer learning pipeline enables rapid adaptation to new food categories.
+- Classifies 11 food classes: rice, pizza, dessert, bread, dairy, eggs, fried foods, meat, noodles/pasta, seafood, and vegetables.
+- Full-stack Python Flask web interface for image upload and real-time inference.
+- Cloud-based training and deployment pipeline via Google AI Platform, Docker, and Google Cloud Run for scalable, reliable service.
+- End-to-end workflow: data ingestion from Google Cloud Storage, preprocessing, model training, evaluation, and production deployment.
 
 ## Getting Started  
 
